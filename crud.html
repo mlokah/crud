@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link rel="stylesheet" href="endex.css" />
+  </head>
+
+  <body>
+    <div class="CRUD">
+      <div class="head"></div>
+      <h2>crud</h2>
+      <p>PRODUCT MANAGEMENT SYSTEM</p>
+
+      <div class="inputs">
+        <input placeholder="title" type="text" id="title" />
+        <div class="price">
+          <input type="number" id="price" placeholder="price" />
+          <input type="number" id="taxes" placeholder="taxes" />
+          <input type="number" id="ads" placeholder="ads" />
+          <input type="number" id="discount" placeholder="discount" />
+          <small id="total">32132</small>
+        </div>
+
+        <input placeholder="count" type="number" id="count" />
+        <input placeholder="category" type="text" id="category" />
+        <button id="submit">create</button>
+      </div>
+      <div class="outputs"></div>
+    </div>
+
+    <div class="outputs CRUD">
+      <div class="searshblock">
+        <input type="text" id="search" placeholder="search" />
+        <div class="btnSearch">
+          <button id="searchtitle">search by title</button>
+          <button id="searchcategory">search by category</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="java.js"></script>
+  </body>
+</html>
