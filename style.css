@@ -144,14 +144,37 @@ th {
   font-weight: bold;
 }
 
-button.update-btn {
-  background-color: transparent;
-  color: white;
-  border: 1px solid #ccc;
+
+
+/* تعديل لون جميع الأزرار في الجدول */
+table button {
+    background: rgb(87, 10, 69);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-button.delete-btn {
-  background-color: transparent;
-  color: white;
-  border: 1px solid #ccc;
+/* تأثير hover على الأزرار */
+table button:hover {
+    background: #975e7c5f;
+    letter-spacing: 2px;
+}
+
+/* تنسيق زر Delete All */
+#deleteAll button {
+    background: rgb(87, 10, 69);
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#deleteAll button:hover {
+    background: #975e7c5f;
+    letter-spacing: 2px;
 }
